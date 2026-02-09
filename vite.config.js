@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/nexora/',
+  base: '/',   // ⬅️ ROOT DOMAIN (Vercel)
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
